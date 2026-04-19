@@ -29,7 +29,7 @@ App.SteamWorkshopDownloadLocation=
 App.ExecutableWin=powershell.exe
 App.WorkingDir=./arksa/scripts
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=-NoProfile -ExecutionPolicy Bypass -File \"{{BaseDirectory}}scripts/starte_server.ps1\" -SERVERID {{SERVERID}}
+App.CommandLineArgs=-NoProfile -ExecutionPolicy Bypass -File \"{{BaseDirectory}}scripts/amp_starte_server.ps1\" -SERVERID {{SERVERID}}
 App.AppSettings={}
 App.EnvironmentVariables={}
 App.CommandLineParameterFormat={0}={1}
