@@ -24,12 +24,11 @@ Meta.AppConfigId=5bb7397d-6976-4877-9667-83287bd2dea4
 Meta.AppIsMultiIPAware=False
 App.DisplayName=ARK: Survival Ascended
 App.RootDir=./arksa/
-App.BaseDirectory=./arksa/
 App.SteamWorkshopDownloadLocation=
 App.ExecutableWin=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-App.WorkingDir=./arksa/scripts
+App.WorkingDir=./scripts
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=-NoProfile -ExecutionPolicy Bypass -File \"{{BaseDirectory}}scripts/amp_starte_server.ps1\" -SERVERID {{SERVERID}}
+App.CommandLineArgs=-NoProfile -ExecutionPolicy Bypass -File \"{{RootDir}}scripts/amp_starte_server.ps1\" -SERVERID {{SERVERID}}
 App.AppSettings={}
 App.EnvironmentVariables={}
 App.CommandLineParameterFormat={0}={1}
