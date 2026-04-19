@@ -1,0 +1,39 @@
+[
+    {
+        "DisplayName": "Server ID",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "ID des Server Format 01,02..10,11",
+        "Keywords": "",
+        "FieldName": "SERVERID",
+        "InputType": "text",
+        "ParamFieldName": "SERVERID",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "RCON/Server Admin Password",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "See the Security and Privacy menu for configurable options for the server's RCON password. The RCON password is also used in the in-game console for players to access administrator commands (unless they are whitelisted)",
+        "Keywords": "rcon,password,serveradminpassword",
+        "FieldName": "RCONPassword",
+        "InputType": "hidden",
+        "ParamFieldName": "RCONPassword",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Disable Game Analytics",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "If set, the server's game analytics reporting will be disabled",
+        "Keywords": "game,analytics,nogameanalytics",
+        "FieldName": "NoGameAnalytics",
+        "InputType": "checkbox",
+        "ParamFieldName": "NoGameAnalytics",
+        "DefaultValue": "-NoGameAnalytics ",
+        "EnumValues": {
+            "False": "",
+            "True": "-NoGameAnalytics "
+        }
+    }
+]
