@@ -28,7 +28,7 @@ App.SteamWorkshopDownloadLocation=
 App.ExecutableWin=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
 App.WorkingDir=./scripts
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=-NoProfile -ExecutionPolicy Bypass -File \"{{$FullRootDir}}scripts/amp_starte_server.ps1\" -SERVERID {{SERVERID}}
+App.CommandLineArgs=-NoProfile -ExecutionPolicy Bypass -File {{$FullRootDir}}scripts\\amp_starte_server.ps1 -SERVERID {{SERVERID}}
 App.AppSettings={}
 App.EnvironmentVariables={}
 App.CommandLineParameterFormat={0}={1}
